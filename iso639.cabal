@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                iso639
-version:             0.1.1.0
+version:             0.1.1.1
 synopsis:            ISO639 Data Types
 -- description:         
 homepage:            https://github.com/necrobious/iso639
@@ -20,6 +20,6 @@ library
                      Data.ISO639.Types
                      Data.ISO639.Parse  
   hs-source-dirs:    src
-  build-depends:     base ==4.5.*,
+  build-depends:     base >=4.6 && <4.8,
                      text,
                      unordered-containers
